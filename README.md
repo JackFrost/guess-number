@@ -11,7 +11,7 @@
 ## Установка
 
 ```bash
-$ composer require JackFrost/guess-number
+$ composer require jack-frost/guess-number
 ```
 
 ## Использование
