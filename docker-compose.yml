@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  guess-app:
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+    image: guess-app
+    container_name: guess-app
+    restart: always
+    volumes:
+       - ./:/data/
