@@ -1,0 +1,11 @@
+{
+    "name": "jack-frost/guess-number",
+    "description": "Guess number",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "JackFrost\\GuessNumber\\": "src/"
+        }
+    },
+    "require": {}
+}
